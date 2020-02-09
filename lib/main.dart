@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             ListView(
               children: <Widget>[
-                DescriptionPlace(namePlace:'El Chaltén', stars: 4 , descriptionPlace: "texto raro del chalten con espacions para ver que pasa ahora no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2  raro del chalten con espacions para ver que pasa ahora no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 ")
+                DescriptionPlace(namePlace:'El Chaltén', stars: 4 , descriptionPlace: "Inmerso en la Naturaleza virgen se activan todos tus sentidos. Caminas por senderos que atraviesan bosques llenos de magia, y en cada mirador te detienes a contemplar montañas y glaciares que nunca olvidarás. Tu cuerpo se recarga de energía y aire puro. Estás en El Chaltén, donde tu espíritu se renueva para siempre.")
               ],
             ),
             HeaderAppBar(),

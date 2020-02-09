@@ -6,7 +6,7 @@ class CardImageList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
-    final images = ['assets/img/chalten2.jpg', 'assets/img/chalten1.jpg', 'assets/img/chalten3.jpg', 'assets/img/chalten4.jpg'];
+    final images = ['assets/img/chalten4.jpg', 'assets/img/chalten2.jpg', 'assets/img/chalten1.jpg', 'assets/img/chalten3.jpg'];
 
     return Container(
       height: 350,

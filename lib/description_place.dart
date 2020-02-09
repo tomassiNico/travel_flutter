@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'review_list.dart';
+import 'button_purple.dart';
 
 class StarContainer extends StatelessWidget {
   StarContainer({this.quantity});
@@ -88,7 +89,6 @@ class DescriptionPlace extends StatelessWidget {
             style: TextStyle(
               fontFamily: "Lato",
               fontSize: 16.0,
-              fontWeight: FontWeight.bold,
               color: Color(0XFF56575A)
             )
           ),
@@ -96,9 +96,11 @@ class DescriptionPlace extends StatelessWidget {
 
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         title,
         description,
+        ButtonPurple(buttonText: "Navigate"),
         ReviewList(),
       ],
     );
