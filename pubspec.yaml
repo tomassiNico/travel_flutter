@@ -71,10 +71,14 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
-    - assets/img/IMG_20170305_152636784_HDR.jpg
     - assets/img/luis.jpg
     - assets/img/mmLuis.jpg
     - assets/img/mouse.jpg
+    - assets/img/chalten1.jpg
+    - assets/img/chalten2.jpg
+    - assets/img/chalten3.jpg
+    - assets/img/chalten4.jpg
+    - assets/img/chalten5.jpg
   
   fonts:
     - family: Lato

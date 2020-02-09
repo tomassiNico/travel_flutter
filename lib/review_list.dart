@@ -26,12 +26,17 @@ class ReviewList extends StatelessWidget {
       },
     ];
 
-
-    return Column(
-
+    final reviewsList = Column(
       children: [
         for(var review in reviews) Review(username: review['username'], detail: review['detail'], commnet: review['commnet'], pathImg: review['pathImg'])
       ]
+    );
+
+    return Container(
+      margin: EdgeInsets.only(
+        top:10
+      ),
+      child: reviewsList
     );
   }
 }

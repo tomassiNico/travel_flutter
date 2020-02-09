@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 class GradientBack extends StatelessWidget {
+  GradientBack({this.title});
   
+  final String title;
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+    
     return Container(
       height: 250.0,
       decoration: BoxDecoration(
@@ -19,6 +21,17 @@ class GradientBack extends StatelessWidget {
           tileMode: TileMode.clamp
         )
       ),
+      child: Text(
+        title,
+        style: TextStyle(
+          color: Colors.white,
+          fontSize: 30,
+          fontFamily: "Lato",
+          fontWeight: FontWeight.bold
+        ),
+      ),
+
+      alignment: Alignment(-0.9, -0.6),
     );
   }
 }

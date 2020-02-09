@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class Review extends StatelessWidget {
-  Review({this.username, this.detail ,this.commnet , this.pathImg = 'assets/img/luis.jpg'});
+  Review({this.username, this.detail ,this.commnet , this.pathImg});
 
-  String pathImg;
-  String username;
-  String detail; 
-  String commnet; 
+  final String pathImg;
+  final String username;
+  final String detail; 
+  final String commnet; 
 
   @override
   Widget build(BuildContext context) {

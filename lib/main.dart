@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
+import 'header_appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,10 +23,16 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Travel App'),
-        ),
-        body: new DescriptionPlace(namePlace:'El Chaltén', stars: 4 , descriptionPlace: "texto raro del chalten con espacions para ver que pasa ahora no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2")
+        body: Stack(
+          children: <Widget>[
+            ListView(
+              children: <Widget>[
+                DescriptionPlace(namePlace:'El Chaltén', stars: 4 , descriptionPlace: "texto raro del chalten con espacions para ver que pasa ahora no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2  raro del chalten con espacions para ver que pasa ahora no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 no estyoy viendo que escribop por que estoy viendo las estrellas de mayra v2 ")
+              ],
+            ),
+            HeaderAppBar(),
+          ],
+          )
 
       )
     );
