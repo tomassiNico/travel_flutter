@@ -5,10 +5,7 @@ import 'profile_travel.dart';
 
 class TravelApp extends StatefulWidget{
   @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    return _TravelApp();
-  }
+  State<StatefulWidget> createState() => _TravelApp();
 }
 
 class _TravelApp extends State<TravelApp>{
