@@ -16,14 +16,18 @@ class Review extends StatelessWidget {
         left: 20.0,
         right: 20.0
       ),
-      width: 250,
-      child: Text(
-        commnet,
-        overflow: TextOverflow.ellipsis,
-        maxLines: 3,
-        style: TextStyle(
-          fontFamily: "Lato",
-        ),
+      width: 180,
+      child: Column(
+        children: <Widget>[
+          Text(
+            commnet,
+            overflow: TextOverflow.ellipsis,
+            maxLines: 3,
+            style: TextStyle(
+              fontFamily: "Lato",
+            ),
+          ),
+        ],
       ),
     );
 

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'review_list.dart';
 import 'button_purple.dart';
 
 class StarContainer extends StatelessWidget {
@@ -101,7 +100,6 @@ class DescriptionPlace extends StatelessWidget {
         title,
         description,
         ButtonPurple(buttonText: "Navigate"),
-        ReviewList(),
       ],
     );
   }

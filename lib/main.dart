@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'description_place.dart';
-import 'header_appbar.dart';
+import 'home_travel.dart';
+import 'travel_app.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,19 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        body: Stack(
-          children: <Widget>[
-            ListView(
-              children: <Widget>[
-                DescriptionPlace(namePlace:'El Chaltén', stars: 4 , descriptionPlace: "Inmerso en la Naturaleza virgen se activan todos tus sentidos. Caminas por senderos que atraviesan bosques llenos de magia, y en cada mirador te detienes a contemplar montañas y glaciares que nunca olvidarás. Tu cuerpo se recarga de energía y aire puro. Estás en El Chaltén, donde tu espíritu se renueva para siempre.")
-              ],
-            ),
-            HeaderAppBar(),
-          ],
-          )
-
-      )
+      home: TravelApp()
     );
   }
 }
