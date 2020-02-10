@@ -27,28 +27,23 @@ class _CustomFloatingActionButton extends State<CustomFloatingActionButton>{
   List buttons = [
     {
       'icon': Icons.bookmark_border,
-      'pressed': false,
-      'mini': true
+      'pressed': false
     },
     {
       'icon': Icons.work,
-      'pressed': false,
-      'mini': true
+      'pressed': false
     },
     {
       'icon': Icons.add,
-      'pressed': false,
-      'mini': true
+      'pressed': false
     },
     {
       'icon': Icons.message,
-      'pressed': false,
-      'mini': true
+      'pressed': false
     },
     {
       'icon': Icons.verified_user,
-      'pressed': false,
-      'mini': true
+      'pressed': false
     },
   ];
 
@@ -66,7 +61,7 @@ class _CustomFloatingActionButton extends State<CustomFloatingActionButton>{
         for (var button in buttons) Container(
           margin: EdgeInsets.only(
             top: button['icon'] == Icons.add ? 0 : 5,
-            left: 10
+            left: 8
           ),
 
           child: FloatingActionButton(
@@ -85,7 +80,7 @@ class _CustomFloatingActionButton extends State<CustomFloatingActionButton>{
     return Container(
       margin: EdgeInsets.only(
         top:185,
-        left: 50
+        left: 16
       ),
       child: icons
     );
@@ -118,8 +113,8 @@ class UserData extends StatelessWidget{
 
     final userName = Container(
       margin: EdgeInsets.only(
-        top:10,
-        left: 20
+        top: 10,
+        left: 8
       ),
 
       child: Text(
@@ -137,7 +132,7 @@ class UserData extends StatelessWidget{
     final userEmail = Container(
       margin: EdgeInsets.only(
         top: 10,
-        left: 20
+        left: 8
       ),
 
       child: Text(
@@ -145,7 +140,7 @@ class UserData extends StatelessWidget{
         textAlign: TextAlign.start,
         style: TextStyle(
           fontFamily: "Lato",
-          fontSize: 15,
+          fontSize: 12,
           color: Colors.white60,
         ),
       ),
